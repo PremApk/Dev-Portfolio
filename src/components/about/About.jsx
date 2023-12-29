@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import Image from "../../assets/avatar-2.svg";
+import AboutBox from "./AboutBox";
 
 const about = () => {
   return (
@@ -14,11 +15,10 @@ const about = () => {
               I am Prem, Java developer from TamilNadu, India. I have rich
               experience in building microservices using Java Stack, also I am
               good at Gaming.
-              
             </div>
             <a href="" className="btn">
-                Download CV
-              </a>
+              Download CV
+            </a>
           </div>
           <div className="about__skills grid">
             <div className="skills__data">
@@ -53,6 +53,7 @@ const about = () => {
           </div>
         </div>
       </div>
+      <AboutBox />
     </section>
   );
 };
