@@ -3,7 +3,7 @@ import "./about.css";
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from "./AboutBox";
 
-const FILE_URL = "http://localhost:3000/Premkumar_Arumugam.pdf";
+const FILE_URL = "https://firebasestorage.googleapis.com/v0/b/itz-apk.appspot.com/o/Premkumar_Arumugam.pdf?alt=media&token=85bc8f19-603d-4327-9268-984e2846e9e5";
 
 const downloadFileAtURL = (url) => {
   const fileName = url.split("/").pop();
