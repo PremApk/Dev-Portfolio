@@ -3,6 +3,17 @@ import "./about.css";
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from "./AboutBox";
 
+const FILE_URL = "http://localhost:3000/Premkumar_Arumugam.pdf";
+
+const downloadFileAtURL = (url) => {
+  const fileName = url.split("/").pop();
+  const aTag = document.createElement("a");
+  aTag.href = url;
+  aTag.setAttribute("download", fileName);
+  document.body.appendChild(aTag);
+  aTag.click();
+  aTag.remove();
+};
 const about = () => {
   return (
     <section className="about container section" id="about">
@@ -12,42 +23,50 @@ const about = () => {
         <div className="about__data grid">
           <div className="about__info">
             <div className="about__description">
-              I am Prem, Java developer from TamilNadu, India. I have rich
-              experience in building microservices using Java Stack, also I am
-              good at Gaming.
+            An experienced professional with a strong background in Java. My expertise includes leveraging Java frameworks and tools to create scalable and efficient microservices solutions and address challenges related to distributed systems, REST API design, and inter-service communication.
             </div>
-            <a href="" className="btn">
-              Download CV
-            </a>
+            <button className="btn" onClick={() => {
+              downloadFileAtURL(FILE_URL);
+            }}>Download CV</button>
           </div>
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Developement</h3>
+                <h3 className="skills__name">Java</h3>
                 <span className="skills__number">90%</span>
               </div>
               <div className="skills__bar">
-                <span className="skills__percentage development"></span>
+                <span className="skills__percentage java"></span>
               </div>
             </div>
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Photography</h3>
+                <h3 className="skills__name">Spring Framework</h3>
                 <span className="skills__number">60%</span>
               </div>
               <div className="skills__bar">
-                <span className="skills__percentage photography"></span>
+                <span className="skills__percentage spring"></span>
               </div>
             </div>
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">UI/UX Design</h3>
-                <span className="skills__number">60%</span>
+                <h3 className="skills__name">Apache Kafka</h3>
+                <span className="skills__number">50%</span>
               </div>
               <div className="skills__bar">
-                <span className="skills__percentage ui__design"></span>
+                <span className="skills__percentage kafka"></span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Cloud Knowledge</h3>
+                <span className="skills__number">40%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage cloud"></span>
               </div>
             </div>
           </div>

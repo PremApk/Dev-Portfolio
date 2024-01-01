@@ -65,18 +65,23 @@
     
 }
 
-.development {
+.java {
     width: 90%;
     background-color: rgb(199, 47, 47);
 }
 
-.photography {
-    width: 90%;
+.spring {
+    width: 60%;
     background-color: rgb(199, 47, 47);
 }
 
-.ui__design {
-    width: 90%;
+.kafka {
+    width: 50%;
+    background-color: rgb(199, 47, 47);
+}
+
+.cloud{
+    width: 30%;
     background-color: rgb(199, 47, 47);
 }
 

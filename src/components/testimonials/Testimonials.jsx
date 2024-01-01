@@ -1,6 +1,6 @@
 import React from 'react';
 import './testimonials.css';
-import Image1 from "../../assets/avatar-1.svg";
+import Image1 from "../../assets/avatar-2.svg";
 import Image3 from "../../assets/avatar-3.svg";
 import { Pagination} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,10 +11,10 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: "John Doe",
-    subtitle: "Product designer at Dribble",
+    title: "PraveenKumar Arumugam",
+    subtitle: "Business Analyst at Mercedes-Benz",
     comment:
-      "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+      "Hell of a app for lateral thinkers..💡 Game with coding and rational logic, aptly designed for coders and puzzle solvers. Simple yet methodological!!!",
   },
   {
     id: 2,

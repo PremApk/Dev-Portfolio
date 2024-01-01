@@ -1,30 +1,30 @@
 import React from 'react';
 import './services.css';
-import Image1 from "../../assets/service-1.svg";
-import Image2 from "../../assets/service-2.svg";
-import Image3 from "../../assets/service-3.svg";
+import Image1 from "../../assets/springio-icon.svg";
+import Image2 from "../../assets/bash.svg";
+import Image3 from "../../assets/kafka.svg";
 
 const data = [
   {
     id: 1,
     image: Image1,
-    title: "UI/UX design",
+    title: "Spring Framework",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "With the help of Spring Boot, I can deliver production-ready microservice application in significantly less time ",
   },
   {
     id: 2,
     image: Image2,
-    title: "Web Development",
+    title: "Automation",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I can transform time-consuming tasks into few lines of code. Thus, reducing time, money and effort",
   },
   {
     id: 3,
     image: Image3,
-    title: "Photography",
+    title: "Distributed Computing",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I design & develop applications in such a way that data storage and processing is distributed across multiple systems",
   },
 ];
 

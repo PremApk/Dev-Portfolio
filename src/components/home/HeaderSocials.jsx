@@ -3,28 +3,28 @@ import React from 'react';
 const HeaderSocials = () => {
     return (
         <div className="home__socials">
-            <a href="https://www.instagram.com/" className="home__social-link" target="__blank">
+            <a href="https://www.instagram.com/its_apk/" className="home__social-link" target="__blank">
                 <i class="fa-brands fa-instagram"></i>
             </a>
 
-            <a href="https://www.twitter.com/" className="home__social-link" target="__blank">
+            <a href="https://www.twitter.com/__apk___" className="home__social-link" target="__blank">
                 <i class="fa-brands fa-twitter"></i>
             </a>
 
-            <a href="https://www.medium.com/" className="home__social-link" target="__blank">
+            <a href="https://medium.com/@its-apk" className="home__social-link" target="__blank">
                 <i class="fa-brands fa-medium"></i>
             </a>
 
-            <a href="https://www.linkedin.com/" className="home__social-link" target="__blank">
+            <a href="https://www.linkedin.com/in/premkumar-arumugam/" className="home__social-link" target="__blank">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
 
-            <a href="https://www.pinterest.com/" className="home__social-link" target="__blank">
-                <i class="fa-brands fa-pinterest"></i>
+            <a href="https://play.google.com/store/apps/details?id=com.awesome.i&hl=en&gl=US" className="home__social-link" target="__blank">
+                <i class="fa-brands fa-google-play"></i>
             </a>
 
-            <a href="https://www.pinterest.com/" className="home__social-link" target="__blank">
-                <i class="fa-brands fa-pinterest"></i>
+            <a href="https://github.com/PremApk" className="home__social-link" target="__blank">
+                <i class="fa-brands fa-github"></i>
             </a>
         </div>
     )

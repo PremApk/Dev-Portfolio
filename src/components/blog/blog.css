@@ -15,17 +15,17 @@
 }
 
 .blog__img {
-    transform: scale(1);
-    transition: .3s;
+    transform: scale(0.725);
+    transition: .2s;
 }
 
 .blog__thumb:hover .blog__img {
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 .blog__category {
     color: #fff;
-    background-color: var(--first-color);
+    background-color: #000000;
     border-bottom-left-radius: 0.9375rem;
     border-bottom-right-radius: 0.9375rem;
     position: absolute;
